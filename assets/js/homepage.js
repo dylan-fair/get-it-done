@@ -15,7 +15,7 @@ let getUserRepos = function(user){
             }
             })
         .catch(function(error) {
-    alert("Unable to connect to GitHub");
+            alert("Unable to connect to GitHub");
   });
 
 };
